@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/HOHUI/Desktop/3/task3/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -g -std=gnu++11 -o CMakeFiles\\mini_search.dir\\src\\main.cpp.obj -c C:\\Users\\HOHUI\\Desktop\\3\\task3\\src\\main.cpp",
+  "file": "C:/Users/HOHUI/Desktop/3/task3/src/main.cpp",
+  "output": "C:/Users/HOHUI/Desktop/3/task3/build/CMakeFiles/mini_search.dir/src/main.cpp.obj"
+}
+]
