@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libquery_engine_lib.a CMakeFiles/query_engine_lib.dir/query_engine.cpp.obj
+C:\mingw64\bin\ranlib.exe libquery_engine_lib.a

@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-src-Debug-4002d1304ad276179d0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/file_reader",
+					"jsonFile" : "directory-src.file_reader-Debug-99c990c41ed457b0b7c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/file_reader",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/query_engine",
+					"jsonFile" : "directory-src.query_engine-Debug-f4b42399a765b3aed7f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/query_engine",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/text_processor",
+					"jsonFile" : "directory-src.text_processor-Debug-9921d9ec4aa8728ecd92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/text_processor",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "SpaceShooter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MiniSearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MiniSearch-Debug-90f442ddea171fcb5168.json",
+					"name" : "MiniSearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "file_reader_lib::@b9242352dc0594647407",
+					"jsonFile" : "target-file_reader_lib-Debug-bfff969d16cad132a755.json",
+					"name" : "file_reader_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "query_engine_lib::@d4d1d73b87f654fb8dbd",
+					"jsonFile" : "target-query_engine_lib-Debug-453d66b70e82ca999418.json",
+					"name" : "query_engine_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "text_processor_lib::@3af7dbcc6e38be5f4692",
+					"jsonFile" : "target-text_processor_lib-Debug-46eb64bc615f266d7f79.json",
+					"name" : "text_processor_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/HOHUI/Desktop/task3/build",
+		"source" : "C:/Users/HOHUI/Desktop/task3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

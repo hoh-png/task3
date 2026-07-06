@@ -1,0 +1,3 @@
+C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\MiniSearch.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\MiniSearch.dir/objects.a @CMakeFiles\MiniSearch.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\MiniSearch.dir/objects.a -Wl,--no-whole-archive -o bin\MiniSearch.exe -Wl,--out-implib,libMiniSearch.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MiniSearch.dir\linkLibs.rsp

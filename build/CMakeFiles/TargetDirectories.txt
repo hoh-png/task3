@@ -1,0 +1,14 @@
+C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/MiniSearch.dir
+C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/edit_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/rebuild_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/src/CMakeFiles/edit_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/src/CMakeFiles/rebuild_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/src/file_reader/CMakeFiles/file_reader_lib.dir
+C:/Users/HOHUI/Desktop/task3/build/src/file_reader/CMakeFiles/edit_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/src/file_reader/CMakeFiles/rebuild_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/src/query_engine/CMakeFiles/query_engine_lib.dir
+C:/Users/HOHUI/Desktop/task3/build/src/query_engine/CMakeFiles/edit_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/src/query_engine/CMakeFiles/rebuild_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/src/text_processor/CMakeFiles/text_processor_lib.dir
+C:/Users/HOHUI/Desktop/task3/build/src/text_processor/CMakeFiles/edit_cache.dir
+C:/Users/HOHUI/Desktop/task3/build/src/text_processor/CMakeFiles/rebuild_cache.dir

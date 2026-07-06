@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libfile_reader.a CMakeFiles/file_reader.dir/file_reader.cpp.obj
+C:\mingw64\bin\ranlib.exe libfile_reader.a

@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libtext_processor_lib.a CMakeFiles/text_processor_lib.dir/text_processor.cpp.obj
+C:\mingw64\bin\ranlib.exe libtext_processor_lib.a
