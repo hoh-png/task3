@@ -1,1 +1,0 @@
- ../third_party/benchmark/src/libbenchmark.a ../src/query_engine/libQueryParse.dll.a ../src/file_reader/libFilePreproc.dll.a ../src/text_processor/libTextProcessor.dll.a -lshlwapi -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

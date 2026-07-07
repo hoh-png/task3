@@ -1,3 +1,0 @@
-C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\QueryParse.dir/objects.a
-C:\mingw64\bin\ar.exe qc CMakeFiles\QueryParse.dir/objects.a @CMakeFiles\QueryParse.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -g -shared -o libQueryParse.dll -Wl,--out-implib,libQueryParse.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\QueryParse.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\QueryParse.dir\linkLibs.rsp
