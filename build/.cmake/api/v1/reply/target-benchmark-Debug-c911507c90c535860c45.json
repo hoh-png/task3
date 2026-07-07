@@ -1,0 +1,677 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "third_party/benchmark/src/libbenchmark.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"add_definitions",
+			"cxx_feature_check",
+			"include_directories",
+			"set_property"
+		],
+		"files" : 
+		[
+			"third_party/benchmark/src/CMakeLists.txt",
+			"third_party/benchmark/cmake/CXXFeatureCheck.cmake",
+			"third_party/benchmark/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 320,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 331,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 196,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 197,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 198,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 348,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Threads::Threads::@8ffed400b92ab2b01493"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -g -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BENCHMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "BENCHMARK_VERSION=\"v1.9.5\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_STD_REGEX"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_STEADY_CLOCK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				14
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -g -std=c++17 -fvisibility=hidden -fno-keep-inline-dllexport"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BENCHMARK_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_STD_REGEX"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_STEADY_CLOCK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				15,
+				17,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				31,
+				33,
+				36,
+				39,
+				42,
+				43,
+				45,
+				47,
+				50
+			]
+		}
+	],
+	"id" : "benchmark::@27580315aaf28f4a2bec",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/mini_search"
+		}
+	},
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Threads::Threads::@8ffed400b92ab2b01493"
+		},
+		{
+			"backtrace" : 4,
+			"fragment" : "shlwapi"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Threads::Threads::@8ffed400b92ab2b01493"
+		},
+		{
+			"backtrace" : 4,
+			"fragment" : "shlwapi"
+		}
+	],
+	"name" : "benchmark",
+	"nameOnDisk" : "libbenchmark.a",
+	"paths" : 
+	{
+		"build" : "third_party/benchmark/src",
+		"source" : "third_party/benchmark/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				16,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				32,
+				34,
+				35,
+				37,
+				38,
+				40,
+				41,
+				44,
+				46,
+				48,
+				49,
+				51
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				17,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				31,
+				33,
+				36,
+				39,
+				42,
+				43,
+				45,
+				47,
+				50
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/benchmark.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/benchmark_api.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/counter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/export.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/managers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/registration.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/reporter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/state.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/statistics.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/sysinfo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/include/benchmark/utils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/arraysize.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/benchmark/src/benchmark.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/benchmark_api_internal.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/benchmark_api_internal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/benchmark_name.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/benchmark_register.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/benchmark_register.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/benchmark_runner.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/benchmark_runner.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/check.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/check.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/colorprint.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/colorprint.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/commandlineflags.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/commandlineflags.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/complexity.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/complexity.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/console_reporter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/counter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/counter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/csv_reporter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/cycleclock.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/internal_macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/json_reporter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/log.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/mutex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/perf_counters.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/perf_counters.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/re.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/reporter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/statistics.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/statistics.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/string_util.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/string_util.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/sysinfo.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/thread_manager.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/thread_timer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/benchmark/src/timers.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third_party/benchmark/src/timers.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

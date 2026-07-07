@@ -2692,3 +2692,1608 @@ events:
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs_staging_msvcrt64/inst_gcc-15.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-msvcrt-posix-seh, built by Brecht Sanders, r7' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-mpfr=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-gmp=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --with-isl=/c/Prog/winlibs_staging_msvcrt/custombuilt64 --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --enable-libgdiagnostics --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs_staging_msvcrt64/gcc-15.2.0/build_mingw/mingw-w64 CFLAGS='-I/c/Prog/winlibs_staging_msvcrt/custombuilt64/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/c/Prog/winlibs_staging_msvcrt/custombuilt64/share/binutils/bin/ld.exe" "--version"
       
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "third_party/benchmark/cmake/GetGitVersion.cmake:14 (find_package)"
+      - "third_party/benchmark/CMakeLists.txt:104 (include)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/mingw64/bin/"
+      - "C:/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "E:/PyCharm 2025.2.1.1/Git/cmd/"
+      - "E:/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/HOHUI/.cargo/bin/"
+      - "E:/Scripts/"
+      - "C:/Users/HOHUI/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/VSCode/bin/"
+      - "E:/PyCharm 2025.2.1.1/bin/"
+      - "C:/Users/HOHUI/AppData/Roaming/npm/"
+      - "C:/mingw64/"
+      - "/mingw64/bin/"
+      - "/mingw64/sbin/"
+      - "/mingw64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/mingw64/bin/"
+      - "C:/mingw64/sbin/"
+      - "C:/mingw64/"
+      - "C:/Program Files (x86)/mini_search/bin/"
+      - "C:/Program Files (x86)/mini_search/sbin/"
+      - "C:/Program Files (x86)/mini_search/"
+      - "C:/Users/HOHUI/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/mingw64/bin/git.cmd.com"
+      - "C:/mingw64/bin/git.cmd.exe"
+      - "C:/mingw64/bin/git.cmd"
+      - "C:/usr/bin/git.cmd.com"
+      - "C:/usr/bin/git.cmd.exe"
+      - "C:/usr/bin/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd"
+      - "E:/PyCharm 2025.2.1.1/Git/cmd/git.cmd.com"
+      - "E:/PyCharm 2025.2.1.1/Git/cmd/git.cmd.exe"
+      - "E:/PyCharm 2025.2.1.1/Git/cmd/git.cmd"
+      - "E:/git.cmd.com"
+      - "E:/git.cmd.exe"
+      - "E:/git.cmd"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd"
+      - "C:/Users/HOHUI/.cargo/bin/git.cmd.com"
+      - "C:/Users/HOHUI/.cargo/bin/git.cmd.exe"
+      - "C:/Users/HOHUI/.cargo/bin/git.cmd"
+      - "E:/Scripts/git.cmd.com"
+      - "E:/Scripts/git.cmd.exe"
+      - "E:/Scripts/git.cmd"
+      - "C:/Users/HOHUI/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/HOHUI/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/HOHUI/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "E:/VSCode/bin/git.cmd.com"
+      - "E:/VSCode/bin/git.cmd.exe"
+      - "E:/VSCode/bin/git.cmd"
+      - "E:/PyCharm 2025.2.1.1/bin/git.cmd.com"
+      - "E:/PyCharm 2025.2.1.1/bin/git.cmd.exe"
+      - "E:/PyCharm 2025.2.1.1/bin/git.cmd"
+      - "C:/Users/HOHUI/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/HOHUI/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/HOHUI/AppData/Roaming/npm/git.cmd"
+      - "C:/mingw64/git.cmd.com"
+      - "C:/mingw64/git.cmd.exe"
+      - "C:/mingw64/git.cmd"
+      - "/mingw64/bin/git.cmd.com"
+      - "/mingw64/bin/git.cmd.exe"
+      - "/mingw64/bin/git.cmd"
+      - "/mingw64/sbin/git.cmd.com"
+      - "/mingw64/sbin/git.cmd.exe"
+      - "/mingw64/sbin/git.cmd"
+      - "/mingw64/git.cmd.com"
+      - "/mingw64/git.cmd.exe"
+      - "/mingw64/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/mingw64/bin/git.cmd.com"
+      - "C:/mingw64/bin/git.cmd.exe"
+      - "C:/mingw64/bin/git.cmd"
+      - "C:/mingw64/sbin/git.cmd.com"
+      - "C:/mingw64/sbin/git.cmd.exe"
+      - "C:/mingw64/sbin/git.cmd"
+      - "C:/mingw64/git.cmd.com"
+      - "C:/mingw64/git.cmd.exe"
+      - "C:/mingw64/git.cmd"
+      - "C:/Program Files (x86)/mini_search/bin/git.cmd.com"
+      - "C:/Program Files (x86)/mini_search/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/mini_search/bin/git.cmd"
+      - "C:/Program Files (x86)/mini_search/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/mini_search/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/mini_search/sbin/git.cmd"
+      - "C:/Program Files (x86)/mini_search/git.cmd.com"
+      - "C:/Program Files (x86)/mini_search/git.cmd.exe"
+      - "C:/Program Files (x86)/mini_search/git.cmd"
+      - "C:/Users/HOHUI/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/HOHUI/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/HOHUI/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/mingw64/bin/git.com"
+      - "C:/mingw64/bin/git.exe"
+      - "C:/mingw64/bin/git"
+      - "C:/usr/bin/git.com"
+      - "C:/usr/bin/git.exe"
+      - "C:/usr/bin/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git"
+      - "E:/PyCharm 2025.2.1.1/Git/cmd/git.com"
+    found: "E:/PyCharm 2025.2.1.1/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "E:/PyCharm 2025.2.1.1/Git/cmd"
+        - "E:/"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
+        - "C:\\mingw64\\bin"
+        - "C:/Users/HOHUI/.cargo/bin"
+        - "E:\\Scripts\\"
+        - "E:\\"
+        - "C:\\Users\\HOHUI\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps"
+        - "E:\\VSCode\\bin"
+        - "E:/PyCharm 2025.2.1.1/bin"
+        - "C:\\Users\\HOHUI\\AppData\\Roaming\\npm"
+        - "C:/mingw64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/mini_search"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/mingw64"
+        - "C:/Program Files (x86)/mini_search"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "third_party/benchmark/CMakeLists.txt:141 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-kvl68h"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-kvl68h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-kvl68h'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_48c1a/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_48c1a.dir\\build.make CMakeFiles/cmTC_48c1a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-kvl68h'
+        Building CXX object CMakeFiles/cmTC_48c1a.dir/CheckFunctionExists.cxx.obj
+        C:\\mingw64\\bin\\g++.exe   -DCHECK_FUNCTION_EXISTS=shm_open -std=gnu++17 -o CMakeFiles\\cmTC_48c1a.dir\\CheckFunctionExists.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kvl68h\\CheckFunctionExists.cxx
+        Linking CXX executable cmTC_48c1a.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_48c1a.dir\\link.txt --verbose=1
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lrt: No error
+        collect2.exe: error: ld returned 1 exit status
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_48c1a.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_48c1a.dir/objects.a @CMakeFiles\\cmTC_48c1a.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe  -DCHECK_FUNCTION_EXISTS=shm_open -Wl,--whole-archive CMakeFiles\\cmTC_48c1a.dir/objects.a -Wl,--no-whole-archive -o cmTC_48c1a.exe -Wl,--out-implib,libcmTC_48c1a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_48c1a.dir\\linkLibs.rsp
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_48c1a.dir\\build.make:103: cmTC_48c1a.exe] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-kvl68h'
+        mingw32-make: *** [Makefile:133: cmTC_48c1a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:200 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-127sxa"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-127sxa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-127sxa'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1dabf/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1dabf.dir\\build.make CMakeFiles/cmTC_1dabf.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-127sxa'
+        Building CXX object CMakeFiles/cmTC_1dabf.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WALL  -Wall -std=c++17   -Wall -o CMakeFiles\\cmTC_1dabf.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-127sxa\\src.cxx
+        Linking CXX executable cmTC_1dabf.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_1dabf.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_1dabf.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1dabf.dir/objects.a @CMakeFiles\\cmTC_1dabf.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall -Wl,--whole-archive CMakeFiles\\cmTC_1dabf.dir/objects.a -Wl,--no-whole-archive -o cmTC_1dabf.exe -Wl,--out-implib,libcmTC_1dabf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_1dabf.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-127sxa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:201 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-855fcb"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-855fcb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-855fcb'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_93771/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_93771.dir\\build.make CMakeFiles/cmTC_93771.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-855fcb'
+        Building CXX object CMakeFiles/cmTC_93771.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++17   -Wextra -o CMakeFiles\\cmTC_93771.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-855fcb\\src.cxx
+        Linking CXX executable cmTC_93771.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_93771.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_93771.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_93771.dir/objects.a @CMakeFiles\\cmTC_93771.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra -Wl,--whole-archive CMakeFiles\\cmTC_93771.dir/objects.a -Wl,--no-whole-archive -o cmTC_93771.exe -Wl,--out-implib,libcmTC_93771.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_93771.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-855fcb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:202 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-vorokc"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-vorokc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-vorokc'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4e4c3/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4e4c3.dir\\build.make CMakeFiles/cmTC_4e4c3.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-vorokc'
+        Building CXX object CMakeFiles/cmTC_4e4c3.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++17   -Wshadow -o CMakeFiles\\cmTC_4e4c3.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vorokc\\src.cxx
+        Linking CXX executable cmTC_4e4c3.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_4e4c3.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_4e4c3.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_4e4c3.dir/objects.a @CMakeFiles\\cmTC_4e4c3.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow -Wl,--whole-archive CMakeFiles\\cmTC_4e4c3.dir/objects.a -Wl,--no-whole-archive -o cmTC_4e4c3.exe -Wl,--out-implib,libcmTC_4e4c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_4e4c3.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-vorokc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:203 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-v9kdcs"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-v9kdcs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-v9kdcs'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e47b1/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e47b1.dir\\build.make CMakeFiles/cmTC_e47b1.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-v9kdcs'
+        Building CXX object CMakeFiles/cmTC_e47b1.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++17   -Wfloat-equal -o CMakeFiles\\cmTC_e47b1.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v9kdcs\\src.cxx
+        Linking CXX executable cmTC_e47b1.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e47b1.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_e47b1.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_e47b1.dir/objects.a @CMakeFiles\\cmTC_e47b1.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal -Wl,--whole-archive CMakeFiles\\cmTC_e47b1.dir/objects.a -Wl,--no-whole-archive -o cmTC_e47b1.exe -Wl,--out-implib,libcmTC_e47b1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e47b1.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-v9kdcs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:204 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-47jh2a"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-47jh2a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-47jh2a'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_23798/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_23798.dir\\build.make CMakeFiles/cmTC_23798.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-47jh2a'
+        Building CXX object CMakeFiles/cmTC_23798.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++17   -Wold-style-cast -o CMakeFiles\\cmTC_23798.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-47jh2a\\src.cxx
+        Linking CXX executable cmTC_23798.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_23798.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_23798.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_23798.dir/objects.a @CMakeFiles\\cmTC_23798.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -Wl,--whole-archive CMakeFiles\\cmTC_23798.dir/objects.a -Wl,--no-whole-archive -o cmTC_23798.exe -Wl,--out-implib,libcmTC_23798.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_23798.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-47jh2a'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:205 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WCONVERSION"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-u6e2s7"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-u6e2s7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WCONVERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-u6e2s7'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_698cd/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_698cd.dir\\build.make CMakeFiles/cmTC_698cd.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-u6e2s7'
+        Building CXX object CMakeFiles/cmTC_698cd.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WCONVERSION  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -std=c++17   -Wconversion -o CMakeFiles\\cmTC_698cd.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u6e2s7\\src.cxx
+        Linking CXX executable cmTC_698cd.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_698cd.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_698cd.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_698cd.dir/objects.a @CMakeFiles\\cmTC_698cd.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -Wl,--whole-archive CMakeFiles\\cmTC_698cd.dir/objects.a -Wl,--no-whole-archive -o cmTC_698cd.exe -Wl,--out-implib,libcmTC_698cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_698cd.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-u6e2s7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:206 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFORMAT_2"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-eub02e"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-eub02e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFORMAT_2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-eub02e'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ab37b/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ab37b.dir\\build.make CMakeFiles/cmTC_ab37b.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-eub02e'
+        Building CXX object CMakeFiles/cmTC_ab37b.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WFORMAT_2  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2 -std=c++17   -Wformat=2 -o CMakeFiles\\cmTC_ab37b.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eub02e\\src.cxx
+        Linking CXX executable cmTC_ab37b.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ab37b.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ab37b.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ab37b.dir/objects.a @CMakeFiles\\cmTC_ab37b.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2 -Wl,--whole-archive CMakeFiles\\cmTC_ab37b.dir/objects.a -Wl,--no-whole-archive -o cmTC_ab37b.exe -Wl,--out-implib,libcmTC_ab37b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ab37b.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-eub02e'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:208 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-alcim8"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-alcim8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-alcim8'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d2081/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d2081.dir\\build.make CMakeFiles/cmTC_d2081.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-alcim8'
+        Building CXX object CMakeFiles/cmTC_d2081.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror -std=c++17   -Werror -o CMakeFiles\\cmTC_d2081.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-alcim8\\src.cxx
+        Linking CXX executable cmTC_d2081.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d2081.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_d2081.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_d2081.dir/objects.a @CMakeFiles\\cmTC_d2081.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror -Wl,--whole-archive CMakeFiles\\cmTC_d2081.dir/objects.a -Wl,--no-whole-archive -o cmTC_d2081.exe -Wl,--out-implib,libcmTC_d2081.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_d2081.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-alcim8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:209 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-3h82xx"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-3h82xx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-3h82xx'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ae9f6/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ae9f6.dir\\build.make CMakeFiles/cmTC_ae9f6.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-3h82xx'
+        Building CXX object CMakeFiles/cmTC_ae9f6.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors -std=c++17   -pedantic-errors -o CMakeFiles\\cmTC_ae9f6.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3h82xx\\src.cxx
+        Linking CXX executable cmTC_ae9f6.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ae9f6.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_ae9f6.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ae9f6.dir/objects.a @CMakeFiles\\cmTC_ae9f6.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors -Wl,--whole-archive CMakeFiles\\cmTC_ae9f6.dir/objects.a -Wl,--no-whole-archive -o cmTC_ae9f6.exe -Wl,--out-implib,libcmTC_ae9f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ae9f6.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-3h82xx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:213 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-6l4s6h"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-6l4s6h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-6l4s6h'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_db38d/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_db38d.dir\\build.make CMakeFiles/cmTC_db38d.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-6l4s6h'
+        Building CXX object CMakeFiles/cmTC_db38d.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override -std=c++17   -Wsuggest-override -o CMakeFiles\\cmTC_db38d.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6l4s6h\\src.cxx
+        Linking CXX executable cmTC_db38d.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_db38d.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_db38d.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_db38d.dir/objects.a @CMakeFiles\\cmTC_db38d.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override -Wl,--whole-archive CMakeFiles\\cmTC_db38d.dir/objects.a -Wl,--no-whole-archive -o cmTC_db38d.exe -Wl,--out-implib,libcmTC_db38d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_db38d.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-6l4s6h'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:215 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-8l5d9o"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-8l5d9o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-8l5d9o'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2438c/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2438c.dir\\build.make CMakeFiles/cmTC_2438c.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-8l5d9o'
+        Building CXX object CMakeFiles/cmTC_2438c.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic -std=c++17   -pedantic -o CMakeFiles\\cmTC_2438c.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8l5d9o\\src.cxx
+        Linking CXX executable cmTC_2438c.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2438c.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_2438c.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_2438c.dir/objects.a @CMakeFiles\\cmTC_2438c.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic -Wl,--whole-archive CMakeFiles\\cmTC_2438c.dir/objects.a -Wl,--no-whole-archive -o cmTC_2438c.exe -Wl,--out-implib,libcmTC_2438c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2438c.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-8l5d9o'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:216 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-goshbp"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-goshbp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-goshbp'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9feac/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9feac.dir\\build.make CMakeFiles/cmTC_9feac.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-goshbp'
+        Building CXX object CMakeFiles/cmTC_9feac.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -Wshorten-64-to-32 -std=c++17   -Wshorten-64-to-32 -o CMakeFiles\\cmTC_9feac.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-goshbp\\src.cxx
+        g++.exe: error: unrecognized command-line option '-Wshorten-64-to-32'
+        g++.exe: error: unrecognized command-line option '-Wshorten-64-to-32'
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_9feac.dir\\build.make:80: CMakeFiles/cmTC_9feac.dir/src.cxx.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-goshbp'
+        mingw32-make: *** [Makefile:133: cmTC_9feac/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:217 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-65522p"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-65522p"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-65522p'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5eca0/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5eca0.dir\\build.make CMakeFiles/cmTC_5eca0.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-65522p'
+        Building CXX object CMakeFiles/cmTC_5eca0.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing -std=c++17   -fstrict-aliasing -o CMakeFiles\\cmTC_5eca0.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65522p\\src.cxx
+        Linking CXX executable cmTC_5eca0.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_5eca0.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_5eca0.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_5eca0.dir/objects.a @CMakeFiles\\cmTC_5eca0.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing -Wl,--whole-archive CMakeFiles\\cmTC_5eca0.dir/objects.a -Wl,--no-whole-archive -o cmTC_5eca0.exe -Wl,--out-implib,libcmTC_5eca0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5eca0.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-65522p'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:220 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-2q2fqh"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-2q2fqh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-2q2fqh'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_101e9/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_101e9.dir\\build.make CMakeFiles/cmTC_101e9.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-2q2fqh'
+        Building CXX object CMakeFiles/cmTC_101e9.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++17   -Wno-deprecated-declarations -o CMakeFiles\\cmTC_101e9.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2q2fqh\\src.cxx
+        Linking CXX executable cmTC_101e9.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_101e9.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_101e9.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_101e9.dir/objects.a @CMakeFiles\\cmTC_101e9.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations -Wl,--whole-archive CMakeFiles\\cmTC_101e9.dir/objects.a -Wl,--no-whole-archive -o cmTC_101e9.exe -Wl,--out-implib,libcmTC_101e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_101e9.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-2q2fqh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:233 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-4gtyie"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-4gtyie"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-4gtyie'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8933a/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8933a.dir\\build.make CMakeFiles/cmTC_8933a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-4gtyie'
+        Building CXX object CMakeFiles/cmTC_8933a.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++17   -Wno-deprecated -o CMakeFiles\\cmTC_8933a.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4gtyie\\src.cxx
+        Linking CXX executable cmTC_8933a.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_8933a.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_8933a.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_8933a.dir/objects.a @CMakeFiles\\cmTC_8933a.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -Wl,--whole-archive CMakeFiles\\cmTC_8933a.dir/objects.a -Wl,--no-whole-archive -o cmTC_8933a.exe -Wl,--out-implib,libcmTC_8933a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_8933a.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-4gtyie'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:241 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-x9d440"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-x9d440"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-x9d440'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9a303/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9a303.dir\\build.make CMakeFiles/cmTC_9a303.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-x9d440'
+        Building CXX object CMakeFiles/cmTC_9a303.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++17   -Wstrict-aliasing -o CMakeFiles\\cmTC_9a303.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x9d440\\src.cxx
+        Linking CXX executable cmTC_9a303.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9a303.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9a303.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_9a303.dir/objects.a @CMakeFiles\\cmTC_9a303.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -Wl,--whole-archive CMakeFiles\\cmTC_9a303.dir/objects.a -Wl,--no-whole-archive -o cmTC_9a303.exe -Wl,--out-implib,libcmTC_9a303.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_9a303.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-x9d440'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:245 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-uqr8rv"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-uqr8rv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-uqr8rv'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_62ba3/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_62ba3.dir\\build.make CMakeFiles/cmTC_62ba3.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-uqr8rv'
+        Building CXX object CMakeFiles/cmTC_62ba3.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++17   -Wthread-safety -o CMakeFiles\\cmTC_62ba3.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uqr8rv\\src.cxx
+        g++.exe: error: unrecognized command-line option '-Wthread-safety'
+        g++.exe: error: unrecognized command-line option '-Wthread-safety'
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_62ba3.dir\\build.make:80: CMakeFiles/cmTC_62ba3.dir/src.cxx.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-uqr8rv'
+        mingw32-make: *** [Makefile:133: cmTC_62ba3/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "third_party/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third_party/benchmark/CMakeLists.txt:296 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-h3jiee"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-h3jiee"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-h3jiee'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_fdd29/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_fdd29.dir\\build.make CMakeFiles/cmTC_fdd29.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-h3jiee'
+        Building CXX object CMakeFiles/cmTC_fdd29.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++17   --coverage -o CMakeFiles\\cmTC_fdd29.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3jiee\\src.cxx
+        Linking CXX executable cmTC_fdd29.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_fdd29.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_fdd29.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_fdd29.dir/objects.a @CMakeFiles\\cmTC_fdd29.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -Wl,--whole-archive CMakeFiles\\cmTC_fdd29.dir/objects.a -Wl,--no-whole-archive -o cmTC_fdd29.exe -Wl,--out-implib,libcmTC_fdd29.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_fdd29.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-h3jiee'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:58 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:320 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_93589/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_93589.dir\\build.make CMakeFiles/cmTC_93589.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_93589.dir/std_regex.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles\\cmTC_93589.dir\\std_regex.cpp.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\std_regex.cpp
+        Linking CXX executable cmTC_93589.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_93589.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_93589.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_93589.dir/objects.a @CMakeFiles\\cmTC_93589.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wl,--whole-archive CMakeFiles\\cmTC_93589.dir/objects.a -Wl,--no-whole-archive -o cmTC_93589.exe -Wl,--out-implib,libcmTC_93589.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_93589.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:58 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:321 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_9a436/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9a436.dir\\build.make CMakeFiles/cmTC_9a436.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_9a436.dir/gnu_posix_regex.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles\\cmTC_9a436.dir\\gnu_posix_regex.cpp.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\gnu_posix_regex.cpp
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No such file or directory
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_9a436.dir\\build.make:80: CMakeFiles/cmTC_9a436.dir/gnu_posix_regex.cpp.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        mingw32-make: *** [Makefile:133: cmTC_9a436/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:58 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:322 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_57487/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_57487.dir\\build.make CMakeFiles/cmTC_57487.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_57487.dir/posix_regex.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles\\cmTC_57487.dir\\posix_regex.cpp.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\posix_regex.cpp
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\posix_regex.cpp:1:10: fatal error: regex.h: No such file or directory
+            1 | #include <regex.h>
+              |          ^~~~~~~~~
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_57487.dir\\build.make:80: CMakeFiles/cmTC_57487.dir/posix_regex.cpp.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        mingw32-make: *** [Makefile:133: cmTC_57487/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:58 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:331 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_06096/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_06096.dir\\build.make CMakeFiles/cmTC_06096.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_06096.dir/steady_clock.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles\\cmTC_06096.dir\\steady_clock.cpp.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\steady_clock.cpp
+        Linking CXX executable cmTC_06096.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_06096.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_06096.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_06096.dir/objects.a @CMakeFiles\\cmTC_06096.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wl,--whole-archive CMakeFiles\\cmTC_06096.dir/objects.a -Wl,--no-whole-archive -o cmTC_06096.exe -Wl,--out-implib,libcmTC_06096.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_06096.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/mingw64/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/mingw64/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "C:/mingw64/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "third_party/benchmark/CMakeLists.txt:334 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-d4m2lx"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-d4m2lx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-d4m2lx'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_30043/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_30043.dir\\build.make CMakeFiles/cmTC_30043.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-d4m2lx'
+        Building CXX object CMakeFiles/cmTC_30043.dir/src.cxx.obj
+        C:\\mingw64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles\\cmTC_30043.dir\\src.cxx.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d4m2lx\\src.cxx
+        Linking CXX executable cmTC_30043.exe
+        C:\\mingw64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_30043.dir\\link.txt --verbose=1
+        C:\\mingw64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_30043.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_30043.dir/objects.a @CMakeFiles\\cmTC_30043.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wl,--whole-archive CMakeFiles\\cmTC_30043.dir/objects.a -Wl,--no-whole-archive -o cmTC_30043.exe -Wl,--out-implib,libcmTC_30043.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_30043.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeScratch/TryCompile-d4m2lx'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "third_party/benchmark/cmake/CXXFeatureCheck.cmake:58 (try_run)"
+      - "third_party/benchmark/CMakeLists.txt:341 (cxx_feature_check)"
+    directories:
+      source: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake/Modules;C:/Users/HOHUI/Desktop/task3/third_party/benchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/mingw64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b680d/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b680d.dir\\build.make CMakeFiles/cmTC_b680d.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_b680d.dir/pthread_affinity.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Wformat=2  -Werror  -pedantic-errors  -Wsuggest-override  -pedantic  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles\\cmTC_b680d.dir\\pthread_affinity.cpp.obj -c C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp: In function 'int main()':
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp:6:3: error: 'cpu_set_t' was not declared in this scope
+            6 |   cpu_set_t set;
+              |   ^~~~~~~~~
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp:7:13: error: 'set' was not declared in this scope; did you mean 'tzset'?
+            7 |   CPU_ZERO(&set);
+              |             ^~~
+              |             tzset
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp:7:3: error: 'CPU_ZERO' was not declared in this scope
+            7 |   CPU_ZERO(&set);
+              |   ^~~~~~~~
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp:8:23: error: 'CPU_SETSIZE' was not declared in this scope
+            8 |   for (int i = 0; i < CPU_SETSIZE; ++i) {
+              |                       ^~~~~~~~~~~
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp:9:5: error: 'CPU_SET' was not declared in this scope
+            9 |     CPU_SET(i, &set);
+              |     ^~~~~~~
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp:10:5: error: 'CPU_CLR' was not declared in this scope
+           10 |     CPU_CLR(i, &set);
+              |     ^~~~~~~
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp:14:9: error: 'pthread_getaffinity_np' was not declared in this scope; did you mean 'pthread_getname_np'?
+           14 |   ret = pthread_getaffinity_np(self, sizeof(set), &set);
+              |         ^~~~~~~~~~~~~~~~~~~~~~
+              |         pthread_getname_np
+        C:\\Users\\HOHUI\\Desktop\\task3\\third_party\\benchmark\\cmake\\pthread_affinity.cpp:16:9: error: 'pthread_setaffinity_np' was not declared in this scope; did you mean 'pthread_setname_np'?
+           16 |   ret = pthread_setaffinity_np(self, sizeof(set), &set);
+              |         ^~~~~~~~~~~~~~~~~~~~~~
+              |         pthread_setname_np
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_b680d.dir\\build.make:80: CMakeFiles/cmTC_b680d.dir/pthread_affinity.cpp.obj] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/CMakeTmp'
+        mingw32-make: *** [Makefile:133: cmTC_b680d/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "benchmark/CMakeLists.txt:4 (find_package)"
+    name: "benchmark"
+    configs:
+      -
+        filename: "benchmark.cps"
+        kind: "cps"
+      -
+        filename: "benchmarkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "benchmark-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "benchmark"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/pkgRedirects/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/pkgRedirects/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/pkgRedirects/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/Desktop/task3/build/CMakeFiles/pkgRedirects/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/mingw64/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/mingw64/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/mingw64/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/mingw64/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/PyCharm 2025.2.1.1/Git/cmd/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/PyCharm 2025.2.1.1/Git/cmd/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/PyCharm 2025.2.1.1/Git/cmd/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/PyCharm 2025.2.1.1/Git/cmd/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/.cargo/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/.cargo/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/.cargo/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/.cargo/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Scripts/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Scripts/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/Scripts/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/Scripts/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Local/Programs/Python/Launcher/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Local/Programs/Python/Launcher/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Local/Programs/Python/Launcher/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Local/Programs/Python/Launcher/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/VSCode/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/VSCode/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/VSCode/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/VSCode/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/PyCharm 2025.2.1.1/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/PyCharm 2025.2.1.1/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/PyCharm 2025.2.1.1/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/PyCharm 2025.2.1.1/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Roaming/npm/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Roaming/npm/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Roaming/npm/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/HOHUI/AppData/Roaming/npm/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/mingw64/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/mingw64/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/mingw64/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/mingw64/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/benchmarkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/benchmark-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/benchmark.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\mingw64\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\mingw64\\bin"
+        - "C:\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "E:/PyCharm 2025.2.1.1/Git/cmd"
+        - "E:/"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
+        - "C:\\mingw64\\bin"
+        - "C:/Users/HOHUI/.cargo/bin"
+        - "E:\\Scripts\\"
+        - "E:\\"
+        - "C:\\Users\\HOHUI\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:/Users/HOHUI/AppData/Local/Microsoft/WindowsApps"
+        - "E:\\VSCode\\bin"
+        - "E:/PyCharm 2025.2.1.1/bin"
+        - "C:\\Users\\HOHUI\\AppData\\Roaming\\npm"
+        - "C:/mingw64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/mini_search"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/mingw64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/mingw64"
+        - "C:/Program Files (x86)/mini_search"
+...

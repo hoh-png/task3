@@ -2,6 +2,9 @@
 	"InstallScripts" : 
 	[
 		"C:/Users/HOHUI/Desktop/task3/build/cmake_install.cmake",
+		"C:/Users/HOHUI/Desktop/task3/build/third_party/benchmark/cmake_install.cmake",
+		"C:/Users/HOHUI/Desktop/task3/build/third_party/benchmark/src/cmake_install.cmake",
+		"C:/Users/HOHUI/Desktop/task3/build/benchmark/cmake_install.cmake",
 		"C:/Users/HOHUI/Desktop/task3/build/src/cmake_install.cmake",
 		"C:/Users/HOHUI/Desktop/task3/build/src/file_reader/cmake_install.cmake",
 		"C:/Users/HOHUI/Desktop/task3/build/src/query_engine/cmake_install.cmake",

@@ -84,6 +84,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\mingw64\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\mingw64\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HOHUI\Desktop\task3\build\CMakeFiles C:\Users\HOHUI\Desktop\task3\build\\CMakeFiles\progress.marks
@@ -129,43 +174,43 @@ MiniSearch/fast:
 .PHONY : MiniSearch/fast
 
 #=============================================================================
-# Target rules for targets named file_reader_lib
+# Target rules for targets named benchmark
 
 # Build rule for target.
-file_reader_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 file_reader_lib
-.PHONY : file_reader_lib
+benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 benchmark
+.PHONY : benchmark
 
 # fast build rule for target.
-file_reader_lib/fast:
-	$(MAKE) $(MAKESILENT) -f src\file_reader\CMakeFiles\file_reader_lib.dir\build.make src/file_reader/CMakeFiles/file_reader_lib.dir/build
-.PHONY : file_reader_lib/fast
+benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f third_party\benchmark\src\CMakeFiles\benchmark.dir\build.make third_party/benchmark/src/CMakeFiles/benchmark.dir/build
+.PHONY : benchmark/fast
 
 #=============================================================================
-# Target rules for targets named query_engine_lib
+# Target rules for targets named benchmark_main
 
 # Build rule for target.
-query_engine_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 query_engine_lib
-.PHONY : query_engine_lib
+benchmark_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 benchmark_main
+.PHONY : benchmark_main
 
 # fast build rule for target.
-query_engine_lib/fast:
-	$(MAKE) $(MAKESILENT) -f src\query_engine\CMakeFiles\query_engine_lib.dir\build.make src/query_engine/CMakeFiles/query_engine_lib.dir/build
-.PHONY : query_engine_lib/fast
+benchmark_main/fast:
+	$(MAKE) $(MAKESILENT) -f third_party\benchmark\src\CMakeFiles\benchmark_main.dir\build.make third_party/benchmark/src/CMakeFiles/benchmark_main.dir/build
+.PHONY : benchmark_main/fast
 
 #=============================================================================
-# Target rules for targets named text_processor_lib
+# Target rules for targets named mini_search_benchmark
 
 # Build rule for target.
-text_processor_lib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 text_processor_lib
-.PHONY : text_processor_lib
+mini_search_benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mini_search_benchmark
+.PHONY : mini_search_benchmark
 
 # fast build rule for target.
-text_processor_lib/fast:
-	$(MAKE) $(MAKESILENT) -f src\text_processor\CMakeFiles\text_processor_lib.dir\build.make src/text_processor/CMakeFiles/text_processor_lib.dir/build
-.PHONY : text_processor_lib/fast
+mini_search_benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f benchmark\CMakeFiles\mini_search_benchmark.dir\build.make benchmark/CMakeFiles/mini_search_benchmark.dir/build
+.PHONY : mini_search_benchmark/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -198,11 +243,15 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... MiniSearch
-	@echo ... file_reader_lib
-	@echo ... query_engine_lib
-	@echo ... text_processor_lib
+	@echo ... benchmark
+	@echo ... benchmark_main
+	@echo ... mini_search_benchmark
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

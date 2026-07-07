@@ -1,3 +1,0 @@
-add_library(text_processor_lib STATIC text_processor.cpp)
-
-target_include_directories(text_processor_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

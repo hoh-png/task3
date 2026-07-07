@@ -84,6 +84,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\mingw64\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\mingw64\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /d C:\Users\HOHUI\Desktop\task3\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HOHUI\Desktop\task3\build\CMakeFiles C:\Users\HOHUI\Desktop\task3\build\src\file_reader\\CMakeFiles\progress.marks
@@ -115,44 +160,6 @@ depend:
 	cd /d C:\Users\HOHUI\Desktop\task3\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-src/file_reader/CMakeFiles/file_reader_lib.dir/rule:
-	cd /d C:\Users\HOHUI\Desktop\task3\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/file_reader/CMakeFiles/file_reader_lib.dir/rule
-.PHONY : src/file_reader/CMakeFiles/file_reader_lib.dir/rule
-
-# Convenience name for target.
-file_reader_lib: src/file_reader/CMakeFiles/file_reader_lib.dir/rule
-.PHONY : file_reader_lib
-
-# fast build rule for target.
-file_reader_lib/fast:
-	cd /d C:\Users\HOHUI\Desktop\task3\build && $(MAKE) $(MAKESILENT) -f src\file_reader\CMakeFiles\file_reader_lib.dir\build.make src/file_reader/CMakeFiles/file_reader_lib.dir/build
-.PHONY : file_reader_lib/fast
-
-file_reader.obj: file_reader.cpp.obj
-.PHONY : file_reader.obj
-
-# target to build an object file
-file_reader.cpp.obj:
-	cd /d C:\Users\HOHUI\Desktop\task3\build && $(MAKE) $(MAKESILENT) -f src\file_reader\CMakeFiles\file_reader_lib.dir\build.make src/file_reader/CMakeFiles/file_reader_lib.dir/file_reader.cpp.obj
-.PHONY : file_reader.cpp.obj
-
-file_reader.i: file_reader.cpp.i
-.PHONY : file_reader.i
-
-# target to preprocess a source file
-file_reader.cpp.i:
-	cd /d C:\Users\HOHUI\Desktop\task3\build && $(MAKE) $(MAKESILENT) -f src\file_reader\CMakeFiles\file_reader_lib.dir\build.make src/file_reader/CMakeFiles/file_reader_lib.dir/file_reader.cpp.i
-.PHONY : file_reader.cpp.i
-
-file_reader.s: file_reader.cpp.s
-.PHONY : file_reader.s
-
-# target to generate assembly for a file
-file_reader.cpp.s:
-	cd /d C:\Users\HOHUI\Desktop\task3\build && $(MAKE) $(MAKESILENT) -f src\file_reader\CMakeFiles\file_reader_lib.dir\build.make src/file_reader/CMakeFiles/file_reader_lib.dir/file_reader.cpp.s
-.PHONY : file_reader.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -160,11 +167,11 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... file_reader_lib
-	@echo ... file_reader.obj
-	@echo ... file_reader.i
-	@echo ... file_reader.s
 .PHONY : help
 
 
