@@ -53,3 +53,15 @@ add_custom_command(TARGET MiniSearch POST_BUILD
         "$<TARGET_FILE:TextProcessor>"
         "$<TARGET_FILE_DIR:MiniSearch>"
 )
+
+# 安装规则
+install(TARGETS MiniSearch FilePreproc QueryParse TextProcessor
+    RUNTIME DESTINATION .
+    LIBRARY DESTINATION .
+)
+
+# 打包成 zip
+set(CPACK_GENERATOR "ZIP")
+set(CPACK_PACKAGE_NAME "MiniSearch")
+set(CPACK_PACKAGE_VERSION "1.0.0")
+include(CPack)

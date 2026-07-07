@@ -13,7 +13,20 @@ int main(int argc, char* argv[])
 {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
-    const char* dirPath = (argc >= 2) ? argv[1] : ".";
+
+    std::string dirPathBuf;
+    if (argc >= 2) {
+        dirPathBuf = argv[1];
+    } else {
+        std::cout << "请输入 txt 文件夹路径: ";
+        std::getline(std::cin, dirPathBuf);
+        if (dirPathBuf.empty()) {
+            std::cerr << "错误: 未输入路径" << std::endl;
+            system("pause");
+            return 1;
+        }
+    }
+    const char* dirPath = dirPathBuf.c_str();
 
     // 第一步：用 FilePreproc 读取文件夹，分词
     std::cout << "[1/3] 扫描文件夹: " << dirPath << std::endl;
@@ -25,6 +38,7 @@ int main(int argc, char* argv[])
     int ret = ProcessTxtFolder(dirPath, &docArr, &docCount);
     if (ret <= 0) {
         std::cerr << "错误: 没有找到有效的 txt 文件 (code=" << ret << ")" << std::endl;
+        system("pause");
         return 1;
     }
     std::cout << "  找到 " << docCount << " 篇文档" << std::endl;
@@ -190,5 +204,6 @@ int main(int argc, char* argv[])
     }
 
     std::cout << "再见!" << std::endl;
+    system("pause");
     return 0;
 }
