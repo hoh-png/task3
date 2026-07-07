@@ -47,16 +47,18 @@ cd build
 启动后进入交互模式，输入查询内容即可检索：
 
 ```
->> hello world
+>> apple
   找到 3 篇匹配文档:
-    Doc #1
-    Doc #3
+    SnowWhite.txt    (16 次)
+    fruits.txt    (1 次)
+    mobile-phone.txt    (1 次)
 
->> "machine learning"
+>> airplane
   找到 1 篇匹配文档:
-    Doc #2
+    transports.txt    (1 次)
 
 >> quit
+再见!
 ```
 
 - 普通词（如 `hello world`）：查找包含任意一个词的文档
