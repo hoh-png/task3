@@ -41,6 +41,7 @@ cd build
 
 # 方式一：命令行传参
 .\bin\MiniSearch.exe "<此处写入文件夹路径>"
+# 示例：.\bin\MiniSearch.exe "C:\\Users\\HOHUI\\Desktop\\txts"
 
 # 方式二：双击 MiniSearch.exe，根据提示输入路径
 ```
