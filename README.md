@@ -26,8 +26,8 @@
 ## 编译和运行
 
 ```powershell
-# 克隆仓库（注意要带子模块）
-git clone --recurse-submodules https://github.com/hoh-png/MiniSearch
+# 克隆仓库
+git clone https://github.com/hoh-png/MiniSearch
 cd MiniSearch
 
 # CMake 配置
